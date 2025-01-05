@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "langgraph-react"
+version = "0.1.0"
+description = ""
+authors = ["vishal <vis8051@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+langchain = "^0.3.7"
+langgraph = "^0.2.50"
+langchain-openai = "^0.2.8"
+langchainhub = "^0.1.21"
+black = "^24.10.0"
+isort = "^5.13.2"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.7"
+grandalf = "^0.8"
+
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^75.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
