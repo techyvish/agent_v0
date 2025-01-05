@@ -29,7 +29,6 @@ flow.add_edge(ACT, AGENT_REASON)
 app = flow.compile()
 
 if __name__ == '__main__':
-    print("hello re-act")
 
     res = app.invoke(
         input={
